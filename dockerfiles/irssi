@@ -1,0 +1,7 @@
+FROM --platform=i386 i386/irssi
+
+#$ docker run -it --name my-running-irssi -e TERM -u $(id -u):$(id -g) \
+#    --log-driver=none \
+#    -v $HOME/.irssi:/home/user/.irssi:ro \
+#    -v /etc/localtime:/etc/localtime:ro \
+#    i386/irssi
